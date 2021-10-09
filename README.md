@@ -12,4 +12,5 @@ This is a Basic Math Calculation that tells us the age maturity
 >
 > Create a terminal & type
 >
->> node server.js
+>> npm install
+>> nodemon server.js
