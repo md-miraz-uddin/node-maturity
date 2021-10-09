@@ -10,7 +10,7 @@ This is a Basic Math Calculation that tells us the age maturity
 >
 >> git clone https://github.com/md-miraz-uddin/node-maturity.git
 >
-> Create a terminal & type
+> Open a terminal & type
 >
 >> npm install
 >> nodemon server.js
