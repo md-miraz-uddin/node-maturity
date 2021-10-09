@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/md-miraz-uddin/node-maturity/issues"
   },
-  "homepage": "https://github.com/md-miraz-uddin/node-maturity#readme"
+  "homepage": "https://github.com/md-miraz-uddin/node-maturity#readme",
+  "dependencies": {
+    "nodemon": "^2.0.13"
+  }
 }
