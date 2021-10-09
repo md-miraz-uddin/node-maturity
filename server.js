@@ -12,4 +12,3 @@ var express = require("express");
  //start the server
  app.listen(8080);
  
- console.log("Something awesome to happen at http://localhost:8080");
