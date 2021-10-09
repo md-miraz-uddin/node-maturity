@@ -14,3 +14,6 @@ This is a Basic Math Calculation that tells us the age maturity
 >
 >> npm install
 >> nodemon server.js
+>
+> Go to Browser
+>> Visit http://localhost:8080
