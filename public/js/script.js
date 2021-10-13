@@ -16,19 +16,20 @@ input.addEventListener("keyup", function () {
 
 function maturityTest() {
   let age = input.value;
-  let str = "";
+  let eligibility = "matured";
   if (gender === "male") {
     if (age >= 21) {
-      str = `You are a ${gender}, your age is ${age}. <br>You are matured enough to Marry Now by the BD LAW`;
+      eligibility = "matured";
     } else {
-      str = `You are a ${gender}, your age is ${age}. <br>You are not matured enough to Marry Now by the BD LAW`;
+      eligibility = "not matured";
     }
   } else {
     if (age >= 18) {
-      str = `You are a ${gender}, your age is ${age}. <br>You are matured enough to Marry Now by the BD LAW`;
+      eligibility = "matured";
     } else {
-      str = `You are a ${gender}, your age is ${age}. <br>You are not matured enough to Marry Now by the BD LAW`;
+      eligibility = "not matured";
     }
   }
-  result.innerHTML = str;
+
+  result.innerHTML = `You are a ${gender}, your age is ${age}. <br>You are ${eligibility} enough to Marry Now by the BD LAW`;
 }
