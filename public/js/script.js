@@ -18,17 +18,9 @@ function maturityTest() {
   let age = input.value;
   let eligibility = "matured";
   if (gender === "male") {
-    if (age >= 21) {
-      eligibility = "matured";
-    } else {
-      eligibility = "not matured";
-    }
+    eligibility = age >= 21 ? "matured" : "not matured";
   } else {
-    if (age >= 18) {
-      eligibility = "matured";
-    } else {
-      eligibility = "not matured";
-    }
+    eligibility = age >= 18 ? "matured" : "not matured";
   }
 
   result.innerHTML = `You are a ${gender}, your age is ${age}. <br>You are ${eligibility} enough to Marry Now by the BD LAW`;
