@@ -13,6 +13,7 @@ This is a Basic Math Calculation that tells us the age maturity
 > Open a terminal & type
 >
 >> npm install
+>> 
 >> nodemon server.js
 >
 > Go to Browser
